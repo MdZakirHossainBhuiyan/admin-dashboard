@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { faSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from '../../../styles/UIElements.module.css';
