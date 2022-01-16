@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    height: 34px;
+    border: 1px solid #DFDFDF;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Manrope", sans-serif;
+    margin-left: 20px;
+}
+
+.calenderButton{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-right: 1px solid #DFDFDF;
+    background-color: #ffffff;
+}
+
+.calenderInput{
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+
+.calenderInput:active{
+    border: none;
+}

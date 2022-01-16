@@ -1,0 +1,17 @@
+.container{
+    color: #8D8D8D;
+}
+
+.container h1{
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+}
+
+.welcomeText{
+    color: black;
+}
+
+.container p{
+    margin-top: -15px;
+    font-size: 16px;
+}

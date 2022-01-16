@@ -1,0 +1,17 @@
+.container{
+    width: 240px;
+    background-color: #fff;
+    padding-left: 30px;
+    margin-top: -18px;
+}
+
+.uiList{
+    margin-left: 40px;
+    color: #404040;
+    padding: 15px 0px;
+}
+
+.uiList li{
+    padding-top: 10px;
+    font-size: 12px;
+}
