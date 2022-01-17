@@ -2,7 +2,7 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import styles from '../../../styles/UIElements.module.css';
-import Login from './Login';
+import LoginList from './LoginList';
 
 const UserPages = () => {
     const [showList, setShowList] = useState(false);
@@ -21,7 +21,7 @@ const UserPages = () => {
             <button onClick={handleLinkList} className={styles.dashboardLinkButton}><FontAwesomeIcon className={styles.dashboardIcon} icon={faUserCircle} /> <span>User Pages</span></button>
 
             {
-                showList && <Login />
+                showList && <LoginList />
             }
         </div>
     );

@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import styles from '../../../styles/UIElementsList.module.css';
 
-const Login = () => {
+const LoginList = () => {
     return (
         <div className={styles.container}>
             <ul className={styles.uiList}>
-                <Link href="/user/login"><a><li>Login</li></a></Link>
+                <Link href="/userPages/login"><a><li>Login</li></a></Link>
             </ul>
         </div>
     );
 };
 
-export default Login;
+export default LoginList;

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from '../../../styles/UIElements.module.css';
 import ChartList from './ChartList';
 import FormElementsList from './FormElementsList';
+import IconList from './IconList';
 
 const Icons = () => {
     const [showList, setShowList] = useState(false);
@@ -22,7 +23,7 @@ const Icons = () => {
             <button onClick={handleLinkList} className={styles.dashboardLinkButton}><FontAwesomeIcon className={styles.dashboardIcon} icon={faIcons} /> <span>Icons</span></button>
 
             {
-                showList && <ChartList />
+                showList && <IconList />
             }
         </div>
     );

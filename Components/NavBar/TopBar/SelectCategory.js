@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 
 import styles from "../../../styles/SelectCategory.module.css"
-import SelectCategoryModal from '../../Moduls/SelectCategoryModal';
+import SelectCategoryModal from '../../Modal/SelectCategoryModal';
 
 const SelectCategory = () => {
     const [showModal, setShowModal] = useState(false);
