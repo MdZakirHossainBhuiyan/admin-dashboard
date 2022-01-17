@@ -6,7 +6,7 @@ import styles from '../../../styles/MenuButton.module.css';
 const MenuButton = () => {
     return (
         <div>
-            <button className={styles.menuBtn}>bar<FontAwesomeIcon icon={faBars} /></button>
+            <button className={styles.menuBtn}><FontAwesomeIcon className={styles.menuButtonIcon} icon={faBars} /></button>
         </div>
     );
 };

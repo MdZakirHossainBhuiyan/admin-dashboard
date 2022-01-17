@@ -6,7 +6,7 @@ import styles from "../../../styles/SelectCategory.module.css"
 const SelectCategory = () => {
     return (
         <div className={styles.container}>
-            <button className={styles.selectButton}>Select Category <span className={styles.selectButtonIcon}><FontAwesomeIcon icon={faAngleDown} /></span></button>
+            <button className={styles.selectButton}>Select Category <span><FontAwesomeIcon className={styles.selectButtonIcon} icon={faAngleDown} /></span></button>
         </div>
     );
 };

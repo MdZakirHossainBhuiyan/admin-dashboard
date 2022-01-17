@@ -6,7 +6,7 @@ import styles from '../../../styles/TopBarSearchBox.module.css';
 const TopBarSearchBox = () => {
     return (
         <div className={styles.container}>
-            <p>S<FontAwesomeIcon icon={faSearch} /></p>
+            <p><FontAwesomeIcon className={styles.searchBoxIcon} icon={faSearch} /></p>
         </div>
     );
 };

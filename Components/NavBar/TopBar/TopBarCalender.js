@@ -6,8 +6,8 @@ import styles from '../../../styles/TopBarCalender.module.css';
 const TopBarCalender = () => {
     return (
         <div className={styles.container}>
-            <button className={styles.calenderButton}>c</button>
-            {/* <FontAwesomeIcon icon={faCalendarAlt} /> */}
+            <button className={styles.calenderButton}><FontAwesomeIcon className={styles.calenderButtonIcon} icon={faCalendarAlt} /></button>
+            {/*  */}
             <input className={styles.calenderInput} type="text" />
         </div>
     );

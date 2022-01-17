@@ -6,7 +6,7 @@ import styles from '../../../styles/Notification.module.css';
 const Notification = () => {
     return (
         <div className={styles.container}>
-            <p>N<FontAwesomeIcon icon={faBell} /></p>
+            <p><FontAwesomeIcon className={styles.notificationIcon} icon={faBell} /></p>
         </div>
     );
 };
