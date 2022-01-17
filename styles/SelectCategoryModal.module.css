@@ -1,0 +1,40 @@
+.selectCategoryModal{
+    width: 330px;
+    height: auto;
+    background-color: #ce1b1b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ffffff;
+}
+
+.selectCategoryTitle{
+    width: 100%;
+    height: 60px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.hrStyle{
+    margin-top: -17px;
+    height: 2px;
+}
+
+.selectCategoryContent{
+    width: 100%;
+    height: 60px;
+    padding-top: 0px;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 12px;
+}
